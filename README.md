@@ -3,9 +3,10 @@ aim:
 
 starting:
 - have a postgresql running with the database
-- update db credentials in ffindex.py
-- run command in directory `python3 ffindex.py`
-- server should have started on http://127.0.0.1:5503/
+- download([here](https://drive.google.com/file/d/0B7vvgc0KN-9eaDc4T0xPRXJiUTg/view?usp=sharing)), un7zip and import sample database with `psql dbname < sample_db.sql`
+- update database credentials `dbname='ff' user='ea'` in ffindex.py
+- run this command in local repository `python3 ffindex.py`
+- go with a browser on http://127.0.0.1:5503/
 
 features:
 - server displaying([screenshot](http://i.imgur.com/l2OWNOL.png)) a fanfiction.net index
@@ -20,4 +21,3 @@ requirements:
 
 soon:
 - fanfiction.net info scrapper
-- sample db
